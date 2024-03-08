@@ -1,0 +1,69 @@
+{
+  "name": "PancakeSwap Extended",
+  "timestamp": "2023-01-04T11:23:29.974Z",
+  "version": {
+    "major": 2,
+    "minor": 16,
+    "patch": 117
+  },
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": ["pancakeswap", "extended"],
+  "tokens": [
+    {
+      "name": "Wrapped CMP",
+      "symbol": "WCMP",
+      "address": "0xaB6b6212e5443228D586cE5Aeb54B02b185208Cc",
+      "chainId": 512512,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/CMP.png"
+    },
+    {
+      "name": "TowerTestnet Token",
+      "symbol": "TW",
+      "address": "0x09FB691A786284e99D122D2B68dE40D253fec299",
+      "chainId": 512512,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/towertoken.png"
+    },
+    {
+      "name": "Tower BUSD",
+      "symbol": "BUSD",
+      "address": "0xB21668048d42d7d6423B070B278F5Af14e1f1600",
+      "chainId": 512512,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/BUSD.png"
+    },
+    {
+      "name": "Tower USDT",
+      "symbol": "USDT",
+      "address": "0x55A9f6AA17886DC17E407b3Ec4570f0CA8b9704a",
+      "chainId": 512512,
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/usdt.png"
+    },
+    {
+      "name": "Wrapped CMP",
+      "symbol": "WCMP",
+      "address": "0x1fcbA3Cb797465F38839F48CA7c9cDA9d9aac28b",
+      "chainId": 256256,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/CMP.png"
+    },
+    {
+      "name": "Tower BUSD",
+      "symbol": "BUSDt",
+      "address": "0x09FB691A786284e99D122D2B68dE40D253fec299",
+      "chainId": 256256,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/BUSD.png"
+    },
+    {
+      "name": "Tower USDT",
+      "symbol": "USDTt",
+      "address": "0xEcf18be7525EF1af19BA495B7a9e3583254DDd73",
+      "chainId": 256256,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/usdt.png"
+    }
+  ]
+}

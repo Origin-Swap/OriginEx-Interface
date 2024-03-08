@@ -1,0 +1,38 @@
+{
+  "name": "Pancake Default List",
+  "timestamp": "2022-01-26T11:45:09Z",
+  "version": {
+    "major": 4,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "Wrapped VG",
+      "symbol": "WVG",
+      "address": "0x6C7647a5b986B546Faea50825dB34678703687C0",
+      "chainId": 78600,
+      "decimals": 18,
+      "logoURI": "https://i.ibb.co/p1Q7hr7/apple-touch-icon.webp"
+    },
+    {
+      "name": "OriginX Token",
+      "symbol": "ORIX",
+      "address": "0xF6b74a6ca157e990B55B822558CBE5D3147BE508",
+      "chainId": 78600,
+      "decimals": 18,
+      "logoURI": "https://i.ibb.co/YjyNhsR/logowhite.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x8D6E7213bad28E00156c7ecddEFac64Cc508CAD5",
+      "chainId": 78600,
+      "decimals": 6,
+      "logoURI": "https://seeklogo.com/images/T/tether-usdt-logo-FA55C7F397-seeklogo.com.png"
+    }
+  ]
+}

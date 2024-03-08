@@ -6,7 +6,7 @@ export const DEFAULT_META: PageMeta = {
   title: 'OriginX',
   description:
     'The first DEFI AMM built on Vanar Network.',
-  image: 'https://i.ibb.co/Bz7nxLg/hero.png',
+  image: 'https://i.ibb.co/FDsD6dn/hero2.png',
 }
 
 interface PathList {

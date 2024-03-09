@@ -245,12 +245,19 @@ export function SmartSwapForm() {
   return (
     <>
       <CurrencyInputHeader
-        title={t('Swap')}
-        subtitle={t('Trade tokens in Vanar testnet (No Risk)')}
+        title={t('EXCHANGE')}
+        subtitle={t('Trade Tokens on VANAR Chain')}
         hasAmount={hasAmount}
         onRefreshPrice={onRefreshPrice}
       />
-      <Wrapper id="swap-page" style={{ minHeight: '412px' }}>
+      <Wrapper
+      backgroundImage="url()" /* URL gambar yang ingin Anda gunakan */
+      backgroundSize="cover"
+      backgroundRepeat="no-repeat"
+      backgroundPosition="center"
+      id="swap-page"
+      style={{ minHeight: '412px'}}
+      >
         <AutoColumn gap="sm">
           <CurrencyInputPanel
             label={independentField === Field.OUTPUT && !showWrap && tradeInfo ? t('From (estimated)') : t('From')}

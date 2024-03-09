@@ -52,14 +52,22 @@ const CurrencyInputHeader: React.FC<React.PropsWithChildren<Props>> = ({
   return (
     <Swap.CurrencyInputHeader
       title={
-        <Flex width="100%" alignItems="center" justifyContent="space-between" flexDirection="column">
-          <Flex flexDirection="column" alignItems="flex-start" width="100%" marginBottom={15}>
+        <Flex
+          width="100%"
+          alignItems="center"
+          flexDirection="column"
+          backgroundImage="url(/images/swaphead9.png)" /* URL gambar yang ingin Anda gunakan */
+          backgroundSize="cover"
+          backgroundRepeat="no-repeat"
+          backgroundPosition="center"
+        >
+          <Flex flexDirection="column" alignItems="left" width="100%" mt="5px" mb="5px">
             <Swap.CurrencyInputHeaderTitle>{title}</Swap.CurrencyInputHeaderTitle>
           </Flex>
-          <Flex justifyContent="start" width="100%" height="17px" alignItems="center" mb="14px">
+          <Flex justifyContent="start" width="100%" height="17px" alignItems="center" mb="5px">
             <Swap.CurrencyInputHeaderSubTitle>{subtitle}</Swap.CurrencyInputHeaderSubTitle>
           </Flex>
-          <Flex width="100%" justifyContent="end">
+          <Flex width="100%" justifyContent="left">
             {isChartSupported && setIsChartDisplayed && (
               <ColoredIconButton
                 onClick={() => {

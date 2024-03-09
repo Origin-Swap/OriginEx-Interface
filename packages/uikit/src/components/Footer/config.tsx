@@ -80,7 +80,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://twitter.com/Line_swap",
+    href: "https://twitter.com/origin_ex",
   },
   {
     label: "Discord",
@@ -88,14 +88,12 @@ export const socials = [
     items: [
       {
         label: "Global",
-          href: "https://discord.gg/M5RP4eAvsv",
+          href: "https://t.me/originex_global",
       },
-      /*
       {
         label: "Announcements",
-        href: "https://t.me/towerfiAnn",
+        href: "https://t.me/originex_ann",
       },
-      */
     ],
   },
 ];

@@ -25,6 +25,8 @@ const InputRow = styled.div<{ selected: boolean }>`
 `
 const CurrencySelectButton = styled(Button).attrs({ variant: 'text', scale: 'sm' })<{ zapStyle?: ZapStyle }>`
   padding: 0 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #ebffff;
   ${({ zapStyle, theme }) =>
     zapStyle &&
     css`
@@ -48,7 +50,8 @@ const InputPanel = styled.div`
   display: flex;
   flex-flow: column nowrap;
   position: relative;
-  background-color: ${({ theme }) => theme.colors.backgroundAlt};
+  border: 2px solid #ebffff;
+  border-radius: 20px;
   z-index: 1;
 `
 const Container = styled.div<{ zapStyle?: ZapStyle; error?: boolean }>`
@@ -211,10 +214,11 @@ export default function CurrencyInputPanel({
             onClick={!disabled && onMax}
             color="textSubtle"
             fontSize="14px"
-            style={{ display: 'inline', cursor: 'pointer' }}
+            style={{ display: 'inline', cursor: 'pointer', border: '1px solid #ebffff', padding: '5px 5px 0', borderRadius: '10px' }}
           >
+          <svg width="16" height="16" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: '3px' }}><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path data-name="Path 89" d="M256 67h-3a3 3 0 0 0-3 3v21" stroke="#498efc" transform="translate(-249 -63)"/><path data-name="Path 90" d="M276 72v-8h-20v8" stroke="#f1d17c" transform="translate(-249 -63)"/><path data-name="Rectangle 8" stroke="#498efc" d="M250 72h28v20h-28z" transform="translate(-249 -63)"/><path data-name="Path 91" d="M278 79h-9a3 3 0 0 0 0 6h9" stroke="#498efc" transform="translate(-249 -63)"/></g></svg>
             {!hideBalance && !!currency
-              ? t('Balance: %balance%', { balance: selectedCurrencyBalance?.toSignificant(6) ?? t('Loading') })
+              ? t(': %balance%', { balance: selectedCurrencyBalance?.toSignificant(6) ?? t('Loading') })
               : ' -'}
           </Text>
         )}

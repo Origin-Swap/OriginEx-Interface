@@ -31,9 +31,8 @@ const CurrencySelectButton = styled(Button).attrs({ variant: 'text', scale: 'sm'
     zapStyle &&
     css`
       padding: 8px;
-      background: ${theme.colors.background};
-      border: 1px solid ${theme.colors.cardBorder};
-      border-radius: ${zapStyle === 'zap' ? '0px' : '8px'} 8px 0px 0px;
+      border: 1px solid #ebffff;
+      border-radius: 10px;
       height: auto;
     `};
 `
@@ -61,7 +60,7 @@ const Container = styled.div<{ zapStyle?: ZapStyle; error?: boolean }>`
   ${({ zapStyle }) =>
     !!zapStyle &&
     css`
-      border-radius: 0px 16px 16px 16px;
+      border-radius: 16px 16px 16px 16px;
     `};
 `
 

@@ -33,7 +33,7 @@ export const ORIX_TESTNET = new ERC20Token(
   18,
   'ORIX',
   'OriginX Token',
-  'https://Lineswap.exchange/',
+  'https://origin-ex.com/',
 )
 
 export const USDC_BSC = new ERC20Token(

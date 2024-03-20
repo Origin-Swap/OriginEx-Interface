@@ -11,9 +11,9 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "Wrapped VG",
-      "symbol": "WVG",
-      "address": "0x6C7647a5b986B546Faea50825dB34678703687C0",
+      "name": "Wrapped VANRY",
+      "symbol": "WVNR",
+      "address": "0x213c25900f365F1BE338Df478CD82beF7Fd43F85",
       "chainId": 78600,
       "decimals": 18,
       "logoURI": "https://i.ibb.co/p1Q7hr7/apple-touch-icon.webp"

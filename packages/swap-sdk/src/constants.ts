@@ -21,7 +21,7 @@ export const FACTORY_ADDRESS_MAP: Record<number, string> = {
   [ChainId.BSC]: FACTORY_ADDRESS,
   [ChainId.BSC_TESTNET]: '0x6725f303b657a9451d8ba641348b6761a6cc7a17',
   [ChainId.CMP]: '0x55A9f6AA17886DC17E407b3Ec4570f0CA8b9704a', //unverify contract
-  [ChainId.VANAR_TESTNET]: '0x373ab82128611bdB3BC1db33F4215b3e1be1DFf2',
+  [ChainId.VANAR_TESTNET]: '0x6aFfd0e92A5F9f89F839f0AF402936e2b8d1d5A8',
 }
 export const INIT_CODE_HASH = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5'
 
@@ -98,10 +98,10 @@ export const WBNB = {
   ),
   [ChainId.VANAR_TESTNET]: new ERC20Token(
     ChainId.VANAR_TESTNET,
-    '0x6C7647a5b986B546Faea50825dB34678703687C0',
+    '0x213c25900f365F1BE338Df478CD82beF7Fd43F85',
     18,
-    'WVG',
-    'Wrapped VG',
+    'WVNR',
+    'Wrapped VANRY',
     'https://www.vanachain.com/'
   ),
 }

@@ -8,7 +8,7 @@ declare module 'styled-components' {
 
 const GlobalStyle = createGlobalStyle`
   * {
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Changa', sans-serif;
   }
   body {
     // background-color: #f5eda5;

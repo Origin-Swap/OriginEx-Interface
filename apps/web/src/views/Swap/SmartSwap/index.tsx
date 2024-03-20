@@ -246,7 +246,7 @@ export function SmartSwapForm() {
     <>
       <CurrencyInputHeader
         title={t('EXCHANGE')}
-        subtitle={t('Trade Tokens on VANAR Chain')}
+        subtitle={t('Trade Tokens on Favorite Chain')}
         hasAmount={hasAmount}
         onRefreshPrice={onRefreshPrice}
       />

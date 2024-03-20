@@ -8,7 +8,7 @@ const StyledLink = styled(Link)`
 `
 
 const StyledButton = styled(Button)`
-    font-family: 'Pixelify Sans', sans-serif,
+    font-family: 'Changa', sans-serif,
 `
 
 const LaunchButton: React.FC<ButtonProps> = ({ ...props }) => {

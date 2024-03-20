@@ -30,10 +30,6 @@ const DefiBGWrapper = styled.div`
   left: 0;
   right: 0;
   z-index: -1;
-  background-image:url('/images/hero-bg.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center top;
 
   ${({ theme }) => theme.mediaQueries.md} {
     top:100px;
@@ -49,7 +45,7 @@ const HeroImageBGWrapper = styled.div`
   left: 0;
   right: 0;
   z-index: -1;
-  background-image:url('/images/hero-bg.svg');
+  background-image:url('/images/hero-bg0.svg');
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: right top;
@@ -78,10 +74,6 @@ const TradeBGImageWrapper = styled.div`
   left: 0;
   right: 0;
   z-index: -1;
-  background-image:url('/images/home/bg1.png');
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: right top;
 
   ${({ theme }) => theme.mediaQueries.md} {
     padding-top: 48px;
@@ -131,9 +123,8 @@ const Home: React.FC = () => {
         index={2}
         hasCurvedDivider={false}
       >
-        <HeroImageBGWrapper />
-        <HeroBGWrapper />
         <Hero />
+        <HeroImageBGWrapper />
       </StyledHeroSection>
       {/* <PageSection
         innerProps={{ style: { margin: '0', width: '100%' } }}

@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     // background-color: #f5eda5;
-    background-image: url(/images/background.svg);
+    background-image: url(/images/main-background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

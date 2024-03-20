@@ -74,7 +74,7 @@ const Hero = () => {
           <Flex flexDirection="column">
             <SubHeadingWrapper flexDirection="column" alignItems={["center", null, null, "end"]} >
               <GothamText scale="md" color="#f7fffa" textTransform='uppercase'>
-                {t('Built on VANAR Blockchain')}
+                {t('Built on Multiple Blockchain')}
               </GothamText>
               { isMobile ? (
                 <GothamText scale="lg" color="#f7fffa" textAlign={["center", null, null, "right"]} textTransform='uppercase'>

@@ -33,7 +33,7 @@ export const INIT_CODE_HASH_MAP: Record<number, string> = {
   [ChainId.BSC]: INIT_CODE_HASH,
   [ChainId.BSC_TESTNET]: '0xd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66',
   [ChainId.CMP]: '0xf6106b14de90ff9d265a71eb198a4c0cb6eb1e3eb65b5d976cd5c6466315e7ae',
-  [ChainId.VANAR_TESTNET]: '0xbdd013fa85c0b7cae5388d6ce7cae1f1d948242bf22713394dfb1b0351112409',
+  [ChainId.VANAR_TESTNET]: '0x58faadedf97cc96932eb147af360255913bdfd00a512161cd2eb0a431c6fe3ed',
 }
 
 export const WETH9 = {

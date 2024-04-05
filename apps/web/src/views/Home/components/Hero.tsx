@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Button, Flex, useMatchBreakpoints, NextLinkFromReactRouter } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import { GothamText, LandingHeading, FuturaText} from './LandingText'
 import LaunchButton from './LaunchButton'
@@ -88,7 +88,9 @@ const Hero = () => {
 
             </SubHeadingWrapper>
             <Flex justifyContent="center" width="100%" mt="1em">
-              <LaunchButton style={{backgroundColor:'white', color:'#004475'}}/>
+            <NextLinkFromReactRouter to="/swap">
+              <Button mb="24px">{t('Launch App')}</Button>
+              </NextLinkFromReactRouter>
             </Flex>
           </Flex>
 

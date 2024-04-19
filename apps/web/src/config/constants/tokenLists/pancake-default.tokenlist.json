@@ -12,7 +12,7 @@
   "tokens": [
     {
       "name": "Wrapped VANRY",
-      "symbol": "WVNR",
+      "symbol": "WVANRY",
       "address": "0x213c25900f365F1BE338Df478CD82beF7Fd43F85",
       "chainId": 78600,
       "decimals": 18,

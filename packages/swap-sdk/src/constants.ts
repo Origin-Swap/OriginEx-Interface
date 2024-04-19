@@ -100,7 +100,7 @@ export const WBNB = {
     ChainId.VANAR_TESTNET,
     '0x213c25900f365F1BE338Df478CD82beF7Fd43F85',
     18,
-    'WVNR',
+    'WVANRY',
     'Wrapped VANRY',
     'https://www.vanachain.com/'
   ),
@@ -138,5 +138,5 @@ export const NATIVE: Record<
     decimals: 18,
   },
   [ChainId.CMP]: { name: 'CMP', symbol: 'CMP', decimals: 18 },
-  [ChainId.VANAR_TESTNET]: { name: 'Vanry', symbol: 'VG', decimals: 18 },
+  [ChainId.VANAR_TESTNET]: { name: 'Vanguard', symbol: 'VANRY', decimals: 18 },
 }

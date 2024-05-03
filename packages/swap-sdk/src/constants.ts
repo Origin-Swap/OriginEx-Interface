@@ -98,7 +98,7 @@ export const WBNB = {
   ),
   [ChainId.VANAR_TESTNET]: new ERC20Token(
     ChainId.VANAR_TESTNET,
-    '0x213c25900f365F1BE338Df478CD82beF7Fd43F85',
+    '0x7182A2ec337300daA44947f081eD85c4b1587Db0',
     18,
     'WVANRY',
     'Wrapped VANRY',

@@ -10,60 +10,28 @@
   "keywords": ["pancakeswap", "extended"],
   "tokens": [
     {
-      "name": "Wrapped CMP",
-      "symbol": "WCMP",
-      "address": "0xaB6b6212e5443228D586cE5Aeb54B02b185208Cc",
-      "chainId": 512512,
+      "name": "Wrapped VANRY",
+      "symbol": "WVANRY",
+      "address": "0x7182A2ec337300daA44947f081eD85c4b1587Db0",
+      "chainId": 78600,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/CMP.png"
+      "logoURI": "https://i.ibb.co/p1Q7hr7/apple-touch-icon.webp"
     },
     {
-      "name": "TowerTestnet Token",
-      "symbol": "TW",
-      "address": "0x09FB691A786284e99D122D2B68dE40D253fec299",
-      "chainId": 512512,
+      "name": "OriginX Token",
+      "symbol": "ORIX",
+      "address": "0xF6b74a6ca157e990B55B822558CBE5D3147BE508",
+      "chainId": 78600,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/towertoken.png"
+      "logoURI": "https://i.ibb.co/YjyNhsR/logowhite.png"
     },
     {
-      "name": "Tower BUSD",
-      "symbol": "BUSD",
-      "address": "0xB21668048d42d7d6423B070B278F5Af14e1f1600",
-      "chainId": 512512,
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/BUSD.png"
-    },
-    {
-      "name": "Tower USDT",
+      "name": "Tether USD",
       "symbol": "USDT",
-      "address": "0x55A9f6AA17886DC17E407b3Ec4570f0CA8b9704a",
-      "chainId": 512512,
+      "address": "0x8D6E7213bad28E00156c7ecddEFac64Cc508CAD5",
+      "chainId": 78600,
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/usdt.png"
-    },
-    {
-      "name": "Wrapped CMP",
-      "symbol": "WCMP",
-      "address": "0x1fcbA3Cb797465F38839F48CA7c9cDA9d9aac28b",
-      "chainId": 256256,
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/CMP.png"
-    },
-    {
-      "name": "Tower BUSD",
-      "symbol": "BUSDt",
-      "address": "0x09FB691A786284e99D122D2B68dE40D253fec299",
-      "chainId": 256256,
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/BUSD.png"
-    },
-    {
-      "name": "Tower USDT",
-      "symbol": "USDTt",
-      "address": "0xEcf18be7525EF1af19BA495B7a9e3583254DDd73",
-      "chainId": 256256,
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/SmartDev1990/tower-asset-icon/main/icon/usdt.png"
+      "logoURI": "https://seeklogo.com/images/T/tether-usdt-logo-FA55C7F397-seeklogo.com.png"
     }
   ]
 }

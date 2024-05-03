@@ -6,7 +6,7 @@ export const vanar: Chain = {
   name: 'Vanar Testnet',
   network: 'VanarChain',
   rpcUrls: {
-    default: 'https://rpc-partners-vanguard.vanarchain.com/',
+    default: 'https://rpc-vanguard.vanarchain.com',
   },
   nativeCurrency: { name: 'Vanguard', symbol: 'VANRY', decimals: 18 },
   blockExplorers: {

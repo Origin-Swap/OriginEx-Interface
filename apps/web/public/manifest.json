@@ -1,8 +1,8 @@
 {
-  "short_name": "LineSwap",
-  "name": "LineSwap",
-  "description": "Farm LINE with Line-LP Tokens",
-  "homepage_url": "https://Lineswap.exchange",
+  "short_name": "OriginSwap",
+  "name": "OriginSwap",
+  "description": "Farm ORIX with OEX-LP Tokens",
+  "homepage_url": "https://origin-ex.com",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",
